@@ -13,9 +13,10 @@ def binary_search(alist, target):
             left = middle+1
         elif alist[middle] > target:
             right = middle-1
-        else: return middle
+        else:
+            return middle +1
     return -1
 alist = [1, 3, 5, 7, 9, 11]
 target = 7
 
-binary_search(alist, target)
+print(binary_search(alist, target))
