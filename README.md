@@ -1,4 +1,4 @@
-# algorithon
+# algorith
 笔试面试备考
 
 [插入排序](https://github.com/joyride-bin/algorithon/blob/master/insert_sort.py)
